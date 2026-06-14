@@ -1,5 +1,10 @@
+import sys
 import os
 import time
+
+# add custom_skills to sys path so we can resolve strata_mining_helper imports
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from typing import TYPE_CHECKING
 from api.enums import LogSource, LogType
 from api.interface import SettingsConfig, SkillConfig, WingmanInitializationError
