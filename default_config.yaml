@@ -1,0 +1,17 @@
+module: skills.strata_mining_helper.main
+name: StrataMiningHelper
+display_name: Strata Mining Helper
+author: JayMatthew
+discoverable_by_default: false
+tags:
+  - Star Citizen
+  - Utility
+description:
+  en: Provides all the mining data you and your wingman needs.
+  de: Bietet alle Miningdaten, die Du und Dein Wingman braucht.
+discovery_keywords:
+  - mining
+  - signatures
+  - locations
+  - strategy
+custom_properties: []
